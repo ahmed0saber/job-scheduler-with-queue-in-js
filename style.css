@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: "Glory", sans-serif;
+}
+
+body {
+    padding: 12px;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-container label {
+    font-size: 16px;
+}
+
+.input-container input {
+    border: 1px solid #323232;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.user-form button {
+    padding: 8px 24px;
+    font-size: 16px;
+    background-color: #323232;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.status-wrapper {
+    margin: 24px 0;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.users-container .user-card {
+    border: 1px solid #323232;
+    padding: 8px;
+}
